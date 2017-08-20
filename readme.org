@@ -1,2 +1,0 @@
-* Github dataviz
-Some experiments using github's graphQL api and d3
