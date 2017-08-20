@@ -11,8 +11,10 @@
     "@vx/mock-data": "^0.0.127",
     "@vx/scale": "^0.0.127",
     "@vx/shape": "^0.0.131",
+    "@vx/tooltip": "^0.0.137",
     "d3-array": "^1.2.0",
     "d3-time-format": "^2.0.5",
+    "lodash": "^4.17.4",
     "next": "^3.0.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
@@ -20,5 +22,13 @@
   "scripts": {
     "start": "next start",
     "dev": "next"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }

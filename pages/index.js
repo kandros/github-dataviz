@@ -1,5 +1,14 @@
 import React from 'react'
-import Graph from '../components/graph'
+import Pie from '../components/pie'
 
 export default () =>
-  <Graph width={700} height={420} margin={{top: 60, left: 60, right: 60}} />
+<Pie
+  width={400}
+  height={400}
+  margin={{
+    top: 30,
+    left: 20,
+    right: 20,
+    bottom: 110,
+  }}
+/>
